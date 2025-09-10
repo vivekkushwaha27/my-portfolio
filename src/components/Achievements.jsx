@@ -4,6 +4,11 @@ import { FaAward, FaCertificate, FaTrophy, FaCode } from "react-icons/fa";
 export default function Achievements() {
   const certifications = [
     {
+      href: "https://drive.google.com/file/d/1PM_FDbXWqyM4mJ46jD0QzsGnBNoFJ9Nb/view?usp=drive_link",
+      icon: <FaCertificate className="text-blue-600 text-2xl" />,
+      label: "Developing Services using ASP.NET Core Web API – Infosys Springboard",
+    },
+    {
       href: "https://drive.google.com/file/d/15rotyQLRowg1EH9qp4INlx7ghT7ztlli/view?usp=drive_link",
       icon: <FaCertificate className="text-blue-600 text-2xl" />,
       label: "NPTEL: Java Programming – IIT Kharagpur",
