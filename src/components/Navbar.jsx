@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <h1 className="text-2xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent cursor-pointer">
-          Vivek
+          Vivek Kushwaha
         </h1>
 
         {/* Desktop Menu */}

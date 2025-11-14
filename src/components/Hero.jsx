@@ -33,7 +33,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Full Stack Developer | .NET | Angular | Java
+          Full Stack Developer | .NET Core | Angular | Java
         </motion.h2>
 
         {/* Tagline */}
