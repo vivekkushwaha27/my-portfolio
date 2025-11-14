@@ -1,31 +1,38 @@
 import React from "react";
 import { FaDesktop, FaDatabase, FaCogs } from "react-icons/fa";
+import { FaPerson, FaTimeline } from "react-icons/fa6";
 
 export default function Projects() {
   const projects = [
     {
       icon: <FaDesktop className="text-red-400 text-2xl" />,
-      name: "Quiz Application",
-      desc: "Full-stack quiz platform with secure login, real-time quizzes, leaderboard & analytics dashboard.",
-      tech: [".NET Core", "EF Core", "SQL Server", "Angular", "Angular Material", "Bootstrap"],
+      name: "SkillSphere",
+      desc: "Developing a scalable online learning platform with secure role-based access, RESTful APIs for test management and automated results, and a responsive, high-performance user interface.",
+      tech: ["Angular", ".NET Core", "EF Core", "SQL Server", "JWT", "Angular Material", "Bootstrap"],
     },
     {
       icon: <FaCogs className="text-green-400 text-2xl" />,
-      name: "Resource Sharing Application",
-      desc: "Role-based educational resources sharing application with CRUD operations, dashboards & notifications.",
-      tech: [".NET Core", "EF Core", "JWT Auth", "Angular", "Bootstrap", "SQL Server"],
+      name: " MailGuard AI",
+      desc: " Developed a Python NLP-based spam detection system using Naive Bayes, achieving 92% accuracy and reducing processing time by 50% through optimized text preprocessing and vectorization.",
+      tech: ["Python", "Artificial Intelligence (AI)", "Machine Learning (ML)", "Naive Bayes", "Streamlit"]
     },
     {
-      icon: <FaDatabase className="text-blue-400 text-2xl" />,
-      name: "Test Knowledge",
-      desc: "Java desktop app to manage attend quizes and get score.",
+      icon: <FaTimeline className="text-blue-400 text-2xl" />,
+      name: "QuizWhiz",
+      desc: "Java desktop application for user registration, login, test-taking, and instant result generation. Admins can manage tests, monitor student progress, and handle student data efficiently.",
       tech: ["Java", "Swing", "JDBC", "MySQL"],
     },
     {
       icon: <FaDatabase className="text-blue-400 text-2xl" />,
       name: "Weather Forecasting",
-      desc: "Weather forecasting project.",
+      desc: "Show weather data where users can search by location to get a forecast for the current time and also view the next 5 days' forecasts.",
       tech: ["HTML", "CSS", "JS", "Bootstrap"],
+    },
+    {
+      icon: <FaPerson className="text-blue-400 text-2xl" />,
+      name: "Personal Portfolio",
+      desc: "Develop a professional and responsive personal portfolio for my personal branding.",
+      tech: ["React","HTML", "CSS", "JavaScript"],
     }
   ];
 
